@@ -10,6 +10,10 @@
         "node": true
       }
     },
+    "env": {
+      "browser": true,
+      "node": true
+    },
     "eslintIgnore": [
       "index.js",
       "world.js"
@@ -57,7 +61,7 @@
     "node": "16.x"
   },
   "keywords": [],
-  "author": "",
+  "author": "Outliers",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.32.0",
