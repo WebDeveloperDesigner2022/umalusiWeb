@@ -33,6 +33,7 @@ app.use(session({
   app.get('/', umalusiRoute.defaultRoute);
   app.get('/about-us', umalusiRoute.aboutUs);
   app.get('/contact-us', umalusiRoute.contacts);
+  app.get('/instructions', umalusiRoute.instructions);
 
   //functions with pages
   app.post('/leaver-message', umalusiRoute.messages);

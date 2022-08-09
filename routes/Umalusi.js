@@ -27,10 +27,15 @@ module.exports = function (umalusiService) {
         res.render('Contacts')
     }
 
+    function instructions(req, res){
+        res.render('instructions')
+    }
+
     return{
         defaultRoute,
         aboutUs,
         contacts,
-        messages
+        messages,
+        instructions
     }
 }
